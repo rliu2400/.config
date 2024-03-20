@@ -318,7 +318,7 @@ In the `Preset` menu, select custom and set the `Command` to `nvim` with the `Ar
 Close the preferences menu and open NeoVim with:
 
 ```
-nvim ~/.config/nvim/lua/user/vimtex.lua
+/Users/rliu/.config/nvim/lua/neotex/plugins/vimtex.lua
 ```
 
 Replace both 'okular' and 'zathura' with 'skim'.
@@ -696,7 +696,7 @@ latexmk --version
 
 ## [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
-In order for NeoVim to load icons, it will be imporant to install a NerdFont.
+In order for NeoVim to load icons, it will be important to install a NerdFont.
 For simplicity, I have included RobotoMono in `~/.config/fonts` which you can now move to the appropriate folder on your computer by entering the following in the terminal:
 
 ```
